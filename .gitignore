@@ -11,9 +11,9 @@ __pycache__/
 # sont versionnés.
 model/checkpoints/
 
-# Captures/écrans de debug qui s'accumulent en continu pendant les runs —
-# contenu généré, pas du code ou des données source.
-assets/debug/
+# Assets (images d'entraînement/référence, captures de debug...) : gardés
+# en local sur la machine, pas versionnés (trop volumineux / pas du code).
+assets/
 test/
 
 # Divers
