@@ -1,0 +1,10 @@
+opencv-python==5.0.0.93
+numpy==2.0.2
+pytesseract==0.3.13
+tensorflow==2.18.0
+keras==3.15.0
+
+# Dépendances non-Python requises séparément :
+# - adb (Android Platform Tools) dans le PATH
+# - tesseract-ocr installé sur le système (utilisé par pytesseract)
+# - scrcpy dans le PATH (mode 'debug'/'rec' de start_calibration)

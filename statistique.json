@@ -1,0 +1,505 @@
+{
+  "statistique": {
+    "_2_ELIXIRS": "──────────────────────────────",
+    "Goblins": {
+      "PV": 420,
+      "Speed": "Moyen",
+      "Degats": 108,
+      "attack_speed": 1,
+      "portee": 1,
+      "crit": 15,
+      "capacite": "Dash vers les ennemis en arrière-ligne (Assassin) ; +35% dégâts et crit avec 3 Assassins",
+      "traits": [
+        "Goblin"
+      ],
+      "cout": 2,
+      "note": 7,
+      "img_link": "image_loack/GoblinsCardMergeTactics"
+    },
+    "Archers": {
+      "PV": 488,
+      "Speed": "Moyen",
+      "Degats": 85,
+      "attack_speed": 1.25,
+      "portee": 4,
+      "crit": 15,
+      "capacite": "+1 portée et bonus dégâts sur cibles à 4+ cases (Marksman) ; soin + vitesse à 50% PV (Clan)",
+      "traits": [
+        "Clan"
+      ],
+      "cout": 2,
+      "note": 6,
+      "img_link": "image_loack/ArchersCardMergeTactics"
+    },
+    "Barbarians": {
+      "PV": 854,
+      "Speed": "Moyen",
+      "Degats": 97,
+      "attack_speed": 1.25,
+      "portee": 1,
+      "crit": 15,
+      "capacite": "+40% dégâts et vitesse d'attaque 4s après le début du combat (Warrior) ; soin + vitesse à 50% PV (Clan)",
+      "traits": [
+        "Clan"
+      ],
+      "cout": 2,
+      "note": 8,
+      "img_link": "image_loack/BarbariansCardMergeTactics"
+    },
+    "Knight": {
+      "PV": 1200,
+      "Speed": "Moyen",
+      "Degats": 60,
+      "attack_speed": 1.66,
+      "portee": 1,
+      "crit": 15,
+      "capacite": "Soin rapide sous 50% PV (Tank) ; bonus dégâts en adjacence avec alliés Nobles (Noble)",
+      "traits": [
+        "Noblesse"
+      ],
+      "cout": 2,
+      "note": 7,
+      "img_link": "image_loack/KnightCardMergeTactics"
+    },
+    "Bomber":{
+      "PV":488,
+      "Speed":"Moyen",
+      "Degats":109,
+      "attack_speed":1.42,
+      "portee":3,
+      "crit":15,
+      "capacite": "lance une bombe sur l'enemi le plus proche infligeant des degat dans un rayon de 2 hexas",
+      "traits": [
+        "Nécromancie"
+      ],
+      "cout":2,
+      "note": 0,
+      "img_link":"image_loack/Bomber"
+    },
+    "Firecracker":{
+      "PV":496,
+      "Speed":"Moyen",
+      "Degats":100,
+      "attack_speed":2,
+      "portee":3,
+      "crit":15,
+      "capacite": "tout les quelque coup tire un projectil explosif qui explose a l'impact et blessant tout les ennemi se trovuant dans un cone derrier sa cible",
+      "traits": [
+        "Foret"
+      ],
+      "cout":2,
+      "note": 0,
+      "img_link":"image_loack/Firecracker"
+    },
+    "GoblinLance":{
+      "PV":366,
+      "Speed":"Moyen",
+      "Degats":183,
+      "attack_speed":1.66,
+      "portee":3,
+      "crit":15,
+      "capacite": "Quand on a des lances qui fendent l'air a longue distance pas besoin d'armure",
+      "traits": [
+        "Goblin"
+      ],
+      "cout":2,
+      "note": 0,
+      "img_link":"image_loack/GoblinLance"
+    },
+
+    "_3_ELIXIRS": "──────────────────────────────",
+    "DartGoblin": {
+      "PV": 519,
+      "Speed": "Moyen",
+      "Degats": 115,
+      "attack_speed": 0.83,
+      "portee": 4,
+      "crit": 15,
+      "capacite": "Dash vers les ennemis en arrière-ligne (Assassin) ; +35% dégâts et crit avec 3 Assassins",
+      "traits": [
+        "Goblin"
+      ],
+      "cout": 3,
+      "note": 6,
+      "img_link": "image_loack/DartGoblinCardMergeTactics"
+    },
+    "Valkyrie": {
+      "PV": 1089,
+      "Speed": "Moyen",
+      "Degats": 144,
+      "attack_speed": 2,
+      "portee": 1,
+      "crit": 15,
+      "capacite": "Attaque circulaire 360° (AOE) ; soin rapide sous 50% PV (Tank) ; bonus PV avec alliés Clan",
+      "traits": [
+        "Clan"
+      ],
+      "cout": 3,
+      "note": 8,
+      "img_link": "image_loack/ValkyrieCardMergeTactics"
+    },
+    "Executioner": {
+      "PV": 750,
+      "Speed": "Moyen",
+      "Degats": 118,
+      "attack_speed": 1.66,
+      "portee": 4,
+      "crit": 15,
+      "capacite": "Hache aller-retour perçant plusieurs ennemis (AOE linéaire, dégâts ×2 aller+retour) ; bonus dégâts Blaster à distance",
+      "traits": [
+        "Boss"
+      ],
+      "cout": 3,
+      "note": 7,
+      "img_link": "image_loack/ExecutionerCardMergeTactics"
+    },
+    "Musketeer": {
+      "PV": 922,
+      "Speed": "Moyen",
+      "Degats": 138,
+      "attack_speed": 1.42,
+      "portee": 4,
+      "crit": 15,
+      "capacite": "+1 portée et bonus dégâts à distance (Marksman) ; barre capacité pré-remplie en début de combat (Superstar)",
+      "traits": [
+        "Noblesse"
+      ],
+      "cout": 3,
+      "note": 7,
+      "img_link": "image_loack/MusketeerCardMergeTactics"
+    },
+    "RoyalGhost": {
+      "PV": 828,
+      "Speed": "Moyen",
+      "Degats": 123,
+      "attack_speed": 1.42,
+      "portee": 1,
+      "crit": 15,
+      "capacite": "~Burst mêlée monocible élevé ; soigne après un kill",
+      "traits": [
+        "Nécromancie"
+      ],
+      "cout": 3,
+      "note": 7,
+      "img_link": "image_loack/RoyalGhostCardMergeTactics"
+    },
+    "Giant": {
+      "PV": 1248,
+      "Speed": "Très Lent",
+      "Degats": 90,
+      "attack_speed": 2.5,
+      "portee": 1,
+      "crit": 15,
+      "capacite": "Lance l'ennemi le plus proche toutes les quelques secondes (dégâts = % PV max cible) ; lui et alliés proches reçoivent moins de dégâts (Titan) ; barre capacité pré-remplie (Superstar)",
+      "traits": [
+        "Clan"
+      ],
+      "cout": 4,
+      "note": 7,
+      "img_link": "image_loack/GiantCardMergeTactics"
+    },
+    "GiantSkeleton": {
+      "PV": 1072,
+      "Speed": "Très Lent",
+      "Degats": 75,
+      "attack_speed": 2,
+      "portee": 1,
+      "crit": 15,
+      "capacite": "Fonce vers l'ennemi avec le moins de PV et explose quand la cible passe sous 50% PV (AOE) ; bonus Goblin",
+      "traits": [
+        "Nécromancie"
+      ],
+      "cout": 3,
+      "note": 6,
+      "img_link": "image_loack/GiantSkeletonCardMergeTactics"
+    },
+    "GoblinDemolisher": {
+      "PV": 907,
+      "Speed": "Très Lent",
+      "Degats": 113,
+      "attack_speed": 1.66,
+      "portee": 2,
+      "crit": 15,
+      "capacite": "À la mort : pose une bombe qui explose après 1.5s (AOE, dégâts : 200/400/800/1600 selon étoiles) ; stun 1/2/3/5s selon niveau de fusion (S7)",
+      "traits": [
+        "Goblin"
+      ],
+      "cout": 3,
+      "note": 7,
+      "img_link": "image_loack/GoblinDemolisherCardMergeTactics"
+    },
+    "RoyalGiant": {
+      "PV": 1200,
+      "Speed": "Très Lent",
+      "Degats": 120,
+      "attack_speed": 2.0,
+      "portee": 3,
+      "crit": 15,
+      "capacite": "Très gros tank à distance ; alliés proches gagnent bonus dégâts (Titan) ; +1 portée et bonus dégâts cibles 4+ cases (Marksman)",
+      "traits": [
+        "Noblesse"
+      ],
+      "cout": 3,
+      "note": 6,
+      "img_link": "image_loack/RoyalGiantCardMergeTactics"
+    },
+      "MiniPEKKA": {
+      "PV": 767,
+      "Speed": "Moyen",
+      "Degats": 197,
+      "attack_speed": 1.66,
+      "portee": 1,
+      "crit": 15,
+      "capacite": "Après quelques coups, prépare un pancake pour augmenter le niveau d'un allié au hasard",
+      "traits": [
+        "Boss"
+      ],
+      "cout": 3,
+      "note": 6,
+      "img_link": "image_loack/RoyalGiantCardMergeTactics"
+    },
+    "Prince": {
+      "PV": 932,
+      "Speed": "Moyen",
+      "Degats": 124,
+      "attack_speed": 1.66,
+      "portee": 1,
+      "crit": 15,
+      "capacite": "Début : charge la cible la plus proche, infligeant le double de dégâts, repoussant les ennemis et les étourdissant (2s)",
+      "traits": [
+        "Noblesse"
+      ],
+      "cout": 4,
+      "note": 7,
+      "img_link": "image_loack/PrinceCardMergeTactics"
+    },
+    "MagicArcher": {
+      "PV": 649,
+      "Speed": "Moyen",
+      "Degats": 69,
+      "attack_speed": 1.25,
+      "portee": 4,
+      "crit": 15,
+      "capacite": "Tire des flèches magiques. Après quelques tirs, la prochaine flèche rebondit sur l'ennemi le plus proche dans un rayon de 2 hexas",
+      "traits": [
+        "Foret"
+      ],
+      "cout": 3,
+      "note": 6,
+      "img_link": "image_loack/MagicArcher"
+    },
+    "_4_ELIXIRS": "──────────────────────────────",
+    "Princess": {
+      "PV": 620,
+      "Speed": "Moyen",
+      "Degats": 165,
+      "attack_speed": 2.5,
+      "portee": 6,
+      "crit": 15,
+      "capacite": "Dégâts de zone longue portée (splash AOE) ; bonus dégâts Blaster selon distance ; bonus dégâts en adjacence alliés Nobles",
+      "traits": [
+        "Noblesse"
+      ],
+      "cout": 4,
+      "note": 8,
+      "img_link": "image_loack/PrincessCardMergeTactics"
+    },
+    "GoblinCage": {
+      "PV": 767,
+      "Speed": "Moyen",
+      "Degats": 0,
+      "attack_speed": 0,
+      "portee": 0,
+      "crit": 0,
+      "capacite": "Quand la cage gobeline est détruite le gobelin félon est lâché dans l'arène",
+      "traits": [
+        "Goblin"
+      ],
+      "cout": 4,
+      "note": 8,
+      "img_link": "image_loack/GoblinCage"
+    },
+    "PEKKA": {
+      "PV": 1746,
+      "Speed": "Très Lent",
+      "Degats": 381,
+      "attack_speed": 2.5,
+      "portee": 1,
+      "crit": 15,
+      "capacite": "Énorme burst monocible + AOE longue portée en ligne ; soigne après un kill ; bonus PV massif (Brawler)",
+      "traits": [
+        "Boss"
+      ],
+      "cout": 4,
+      "note": 8,
+      "img_link": "image_loack/PEKKACardMergeTactics"
+    },
+    "BabyDragon": {
+      "PV": 828,
+      "Speed": "Moyen",
+      "Degats": 109,
+      "attack_speed": 2.0,
+      "portee": 2,
+      "crit": 15,
+      "capacite": "Dégâts de zone splash ; accorde bonus hit speed + déplacement aux alliés proches (Fire) ; les Dragons reçoivent -33% dégâts et infligent +33% dégâts aux troupes mêlée (Dragon)",
+      "traits": [
+        "Foret"
+      ],
+      "cout": 4,
+      "note": 6,
+      "img_link": "image_loack/BabyDragonCardMergeTactics"
+    },
+    "Bandit": {
+      "PV": 931,
+      "Speed": "Moyen",
+      "Degats": 103,
+      "attack_speed": 1.25,
+      "portee": 1,
+      "crit": 15,
+      "capacite": "Dash vers l'ennemi le plus éloigné de sa zone (stun) tous les 4→1 attaques (selon niveau de fusion) ; dash vers l'arrière-ligne (Assassin) ; +20% vitesse d'attaque capitaine (Ace)",
+      "traits": [
+        "Foret"
+      ],
+      "cout": 4,
+      "note": 8,
+      "img_link": "image_loack/BanditCardMergeTactics"
+    },
+    "Witch": {
+      "PV": 981,
+      "Speed": "Moyen",
+      "Degats": 163,
+      "attack_speed": 1.66,
+      "portee": 3,
+      "crit": 15,
+      "capacite": "Invoque des Squelettes toutes les 6s (nombre et niveau de fusion selon étoiles) ; 40% chance de ralentir hit + déplacement 3s (Hinder) ; ennemi le plus fort maudit → Undead gagnent +20% dégâts permanents à sa mort",
+      "traits": [
+        "Nécromancie"
+      ],
+      "cout": 4,
+      "note": 8,
+      "img_link": "image_loack/WitchCardMergeTactics"
+    },
+    "GoblinMachine": {
+      "PV": 1118,
+      "Speed": "Moyen",
+      "Degats": 92,
+      "attack_speed": 1.25,
+      "portee": 1,
+      "crit": 15,
+      "capacite": "Attaque rapide ; tire des roquettes sur N ennemis tous les X coups (N et X s'améliorent avec les étoiles) ; bonus Goblin",
+      "traits": [
+        "Goblin"
+      ],
+      "cout": 4,
+      "note": 6,
+      "img_link": "image_loack/GoblinMachineCardMergeTactics"
+    },
+    "Wizzard": {
+      "PV": 984,
+      "Speed": "Moyen",
+      "Degats": 149,
+      "attack_speed": 1.42,
+      "portee": 4,
+      "crit": 15,
+      "capacite": "Dégâts de zone ; bonus de dégâts par attaque (Fire) ; 40% chance de ralentir hit + déplacement 3s (Hinder)",
+      "traits": [
+        "Clan"
+      ],
+      "cout": 4,
+      "note": 8,
+      "img_link": "image_loack/WizardCardMergeTactics"
+    },
+    "SkeletonDragons": {
+      "PV": 992,
+      "Speed": "Moyen",
+      "Degats": 100,
+      "attack_speed": 1,
+      "portee": 4,
+      "crit": 15,
+      "capacite": "Vitesse d'attaque augmente à chaque attaque (Ranger) ; bonus dégâts Goblin",
+      "traits": [
+        "Nécromancie"
+      ],
+      "cout": 4,
+      "note": 7,
+      "img_link": "image_loack/SkeletonDragonsCardMergeTactics"
+    },
+    "_5_ELIXIRS": "──────────────────────────────",
+    "Monk": {
+      "PV": 1550,
+      "Speed": "Moyen",
+      "Degats": 83,
+      "attack_speed": 1.0,
+      "portee": 1,
+      "crit": 15,
+      "capacite": "Génère un bouclier réfléchissant tous les dégâts et se soigne légèrement toutes les N attaques (N diminue avec le niveau de fusion) ; soin rapide sous 50% PV (Tank)",
+      "traits": [
+        "Boss"
+      ],
+      "cout": 5,
+      "note": 7,
+      "img_link": "image_loack/MonkCardMergeTactics"
+    },
+    "Golden": {
+      "PV": 1240,
+      "Speed": "Moyen",
+      "Degats": 145,
+      "attack_speed": 1.0,
+      "portee": 1,
+      "crit": 15,
+      "capacite": "Après avoir éliminé un ennemi : dash vers l'ennemi avec le moins de PV (bonus dégâts croissants par étoile, chainable jusqu'à 3 fois) ; dash vers arrière-ligne (Assassin) ; bonus dégâts adjacence Noble",
+      "traits": [
+        "Noblesse"
+      ],
+      "cout": 5,
+      "note": 8,
+      "img_link": "image_loack/GoldenKnightCardMergeTactics"
+    },
+    "SkeletonKing": {
+      "PV": 1423,
+      "Speed": "Très Lent",
+      "Degats": 142,
+      "attack_speed": 2.0,
+      "portee": 1,
+      "crit": 15,
+      "capacite": "Attaque en cône (AOE) ; invoque un Squelette à chaque kill (niveau selon étoiles) ; +40% dégâts et vitesse 4s (Warrior) ; ennemi le plus fort maudit → Undead gagnent +20% dégâts permanents à sa mort (Undead)",
+      "traits": [
+        "Nécromancie"
+        ],
+      "cout": 5,
+      "note": 7,
+      "img_link": "image_loack/SkeletonKingCardMergeTactics"
+    },
+    "ArcherQueen": {
+      "PV": 863,
+      "Speed": "Moyen",
+      "Degats": 102,
+      "attack_speed": 1.42,
+      "portee": 4,
+      "crit": 15,
+      "capacite": "Attaque multi-cibles ; sous 50% PV : invisibilité 2.5s (non ciblable) + dégâts bonus (se déclenche plusieurs fois en S7) ; bonus PV Clan ; vitesse d'attaque augmente à chaque attaque (Ranger)",
+      "traits": [
+        "Clan"
+      ],
+      "cout": 5,
+      "note": 9,
+      "img_link": "image_loack/ArcherQueenCardMergeTactics"
+    },
+    "BossBandit":{
+      "PV":930,
+      "Speed":"Moyen",
+      "Degats":133,
+      "attack_speed":1.25,
+      "portee":1,
+      "crit":20,
+      "capacite": "Se rue vers les ennemis à 3 ou 4 hexas inflgeant le double de debat saute en arrier de 3 hexas aprèès quelque coup",
+      "traits": [
+        "Foret"
+      ],
+      "cout":5,
+      "note": 9,
+      "img_link":"image_loack/BossBandit"
+
+    }
+  }
+}

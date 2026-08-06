@@ -1,0 +1,4 @@
+(444, 1422) casetest
+(501, 2235) bouton
+(783, 930) vendre
+(777, 960) ffff

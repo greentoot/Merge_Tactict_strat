@@ -1,0 +1,22 @@
+# Environnement virtuel Python — ne doit jamais être versionné (se recrée
+# avec `python -m venv venv_bot` + `pip install -r requirements.txt`)
+venv_bot/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Checkpoints d'entraînement intermédiaires (dizaines de .keras régénérés à
+# chaque run d'entraînement). Seuls les modèles finaux dans model/*.keras
+# sont versionnés.
+model/checkpoints/
+
+# Captures/écrans de debug qui s'accumulent en continu pendant les runs —
+# contenu généré, pas du code ou des données source.
+assets/debug/
+test/
+
+# Divers
+*.log
+.DS_Store
+Thumbs.db
