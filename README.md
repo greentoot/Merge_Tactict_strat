@@ -1,4 +1,4 @@
-# Insta_Proxy
+# Marge Tactic
 
 Bot d'automatisation pour un mode de jeu mobile type "auto-battler" (board 20
 cases, banc, fusions/étoiles, achat de cartes à l'élixir). Le bot pilote le
